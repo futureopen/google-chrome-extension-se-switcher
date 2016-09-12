@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Search Engine Switcher",
+  "description": "The extension shows a test implementation to switch search queries between search engines",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+	 "default_title": "Switch between Search Engines"
+  },
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ]
+}
